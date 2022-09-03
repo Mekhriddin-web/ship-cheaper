@@ -1,0 +1,44 @@
+.table__wrap {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  border: 1px solid $third-border-color;
+  min-height: 684px;
+}
+.table {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  min-width: 1422px;
+}
+
+.table__th {
+  background-color: $main-background-color;
+  color: $second-text-color;
+}
+
+.table__th,
+.table__td {
+  padding: 3px 10px;
+  border: 1px solid $main-border-color;
+  font-style: normal;
+  text-align: center;
+}
+
+.table__delete {
+  display: block;
+  width: 8px;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.table__delete img {
+  display: block;
+  width: 100%;
+  height: 12px;
+}

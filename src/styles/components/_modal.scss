@@ -1,0 +1,104 @@
+.input {
+  display: block;
+  width: 100%;
+  max-width: 236px;
+  background-color: $second-background-color;
+  border: 1px solid #6b7074;
+  padding: 2px 10px;
+}
+
+.select {
+  appearance: none;
+  background-image: url('../../../public/arrow.svg');
+  background-position: 98% 50%;
+  background-repeat: no-repeat;
+  background-size: 10px 6px;
+}
+
+.modal__form {
+  display: none;
+  width: 100%;
+  min-width: 310px;
+  position: relative;
+
+  &.active {
+    display: block;
+  }
+}
+
+.modal__step {
+  display: flex;
+  flex-direction: column;
+  min-height: 271px;
+
+  .title {
+    margin-bottom: 30px;
+  }
+}
+
+.modal__group {
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.modal__group-title {
+  display: block;
+  width: 75px;
+  padding-right: 5px;
+}
+
+.modal__label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.modal__btn-wrap {
+  margin-top: auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+
+  .btn {
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.modal__close {
+  display: block;
+  width: 15px;
+  height: 19px;
+  background-color: transparent;
+  box-shadow: none;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  z-index: 1;
+  &:before,
+  &:after {
+    content: '';
+    display: block;
+    background-color: $fifth-background-color;
+    height: 100%;
+    width: 1px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 1;
+  }
+  &:before {
+    transform: rotate(45deg);
+  }
+  &:after {
+    transform: rotate(-45deg);
+  }
+}
+
+.ReactModal__Overlay {
+  background-color: $fourth-background-color !important;
+}

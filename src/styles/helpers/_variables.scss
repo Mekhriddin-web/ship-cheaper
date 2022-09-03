@@ -1,0 +1,32 @@
+// wrap
+
+$container-width: 1464px;
+$container-p: 20px;
+
+/* colors */
+
+$main-text-color: #2c2c2c;
+$second-text-color: #fff;
+$third-text-color: #83ba63;
+
+$main-border-color: #6b7074;
+$second-border-color: #83ba63;
+$third-border-color: #376b8d;
+
+$main-background-color: #376b8d;
+$second-background-color: #fff;
+$third-background-color: #83ba63;
+$fourth-background-color: #e5b1b1;
+$fifth-background-color: #71809f;
+/* fonts */
+
+$defFonts: 'Roboto', sans-serif;
+
+/* breakpoints */
+
+$breakpoints: (
+  xs: 440px,
+  sm: 768px,
+  md: 1024px,
+  lg: 1170px,
+);
